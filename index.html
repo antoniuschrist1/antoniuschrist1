@@ -1,204 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerFit Gym - Get Stronger Today</title>
+    <title>Antonius Christ - Hidup dalam Kristus</title>
+    <meta name="description" content="Situs pribadi tentang iman kepada Yesus Kristus. Temukan harapan, kasih, dan kekuatan dalam Tuhan.">
     <style>
-        /* Reset and Basic Styles */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
-        a { text-decoration: none; color: inherit; }
-        ul { list-style: none; }
-
-        /* Header/Navigation */
-        header {
-            background: #000;
-            color: #fff;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-        nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 2rem;
-        }
-        .logo { font-size: 1.8rem; font-weight: bold; }
-        .nav-links { display: flex; gap: 2rem; }
-        .nav-links a { transition: color 0.3s; }
-        .nav-links a:hover { color: #ff4500; }
-
-        /* Hero Section */
-        .hero {
-            background: url('https://livefit.com/cdn/shop/articles/Colony_Lofts_Toledo_1_8fdd5cbc-086c-40ad-9367-d8884076c564.png?v=1763155869&width=1600') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: #fff;
-            padding: 0 2rem;
-        }
-        .hero h1 { font-size: 4rem; margin-bottom: 1rem; }
-        .hero p { font-size: 1.5rem; margin-bottom: 2rem; }
-        .btn {
-            background: #ff4500;
-            color: #fff;
-            padding: 1rem 2rem;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            transition: background 0.3s;
-        }
-        .btn:hover { background: #e03d00; }
-
-        /* Sections */
-        section {
-            padding: 5rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #000; }
-        .about, .classes, .pricing, .contact { background: #fff; margin-bottom: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-
-        /* Gallery */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-        }
-
-        /* Pricing Table */
-        .pricing-table {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-        }
-        .plan {
-            background: #eee;
-            padding: 2rem;
-            border-radius: 10px;
-            text-align: center;
-            width: 300px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .plan h3 { font-size: 1.8rem; margin-bottom: 1rem; }
-        .price { font-size: 3rem; font-weight: bold; margin: 1rem 0; }
-        .plan ul { margin: 1.5rem 0; }
-        .plan li { margin-bottom: 0.5rem; }
-
-        /* Footer */
-        footer {
-            background: #000;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-links { flex-direction: column; }
-            .hero h1 { font-size: 3rem; }
-        }
+        body { font-family: 'Georgia', serif; margin: 0; padding: 0; background: #f8f5f0; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/random/1600x900/?cross,sunrise'); background-size: cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+        header h1 { font-size: 4rem; margin: 0; }
+        header p { font-size: 1.5rem; }
+        section { padding: 60px 20px; max-width: 800px; margin: 0 auto; text-align: center; }
+        .verse { font-size: 1.8rem; font-style: italic; margin: 40px 0; color: #5a3f37; }
+        footer { background: #333; color: white; padding: 20px; text-align: center; }
+        a { color: #5a3f37; text-decoration: none; }
+        @media (max-width: 768px) { header h1 { font-size: 2.5rem; } }
     </style>
 </head>
 <body>
 
     <header>
-        <nav>
-            <div class="logo">PowerFit Gym</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#classes">Classes</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div>
+            <h1>Yesus Kristus adalah Tuhan</h1>
+            <p>"Akulah jalan dan kebenaran dan hidup. Tidak ada seorangpun yang datang kepada Bapa kalau tidak melalui Aku." – Yohanes 14:6</p>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <h1>Transform Your Body at PowerFit Gym</h1>
-        <p>Join us and achieve your fitness goals with expert trainers and state-of-the-art equipment.</p>
-        <a href="#pricing" class="btn">Join Now</a>
+    <section>
+        <h2>Selamat Datang</h2>
+        <p>Halo, saya Antonius. Situs ini saya dedikasikan untuk memuliakan Tuhan Yesus Kristus. Di sini, saya ingin berbagi tentang iman, harapan, dan kasih yang saya temukan dalam Dia.</p>
+        <p>Kekuatan saya bukan dari diri sendiri, tapi dari iman kepada Yesus. Seperti yang dikatakan dalam Roma 1:16-17: <strong>"Aku tidak malu akan Injil, karena Injil adalah kuasa Allah untuk keselamatan..."</strong></p>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p style="text-align:center; max-width:800px; margin:0 auto;">PowerFit Gym is a modern fitness center dedicated to helping you build strength, endurance, and confidence. Our facility features top-quality equipment, group classes, and personal training.</p>
-
-        <div class="gallery">
-            <img src="https://thumbs.dreamstime.com/b/modern-gym-interior-weights-equipment-wide-detailed-shot-well-equipped-image-showcases-variety-weight-training-412352669.jpg" alt="Modern gym interior">
-            <img src="https://c8.alamy.com/comp/T4234D/equipment-in-modern-gym-interior-barbells-and-weights-T4234D.jpg" alt="Weights and barbells">
-            <img src="https://dam.northwell.edu/asset/dccac6de-11e3-4a4e-aa67-ef8dd1271513/Drupal/TheWell_exercisemotivation_AS_257686926.jpg" alt="People working out">
-            <img src="https://c8.alamy.com/comp/2RXK8FG/happy-man-high-five-and-fitness-in-sports-motivation-teamwork-or-partnership-at-the-gym-people-touching-hands-in-workout-exercise-or-training-2RXK8FG.jpg" alt="Motivational high five">
-        </div>
+    <section class="verse">
+        <p>"Segala sesuatu dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku." – Filipi 4:13</p>
     </section>
 
-    <section id="classes" class="classes">
-        <h2>Our Classes</h2>
-        <p style="text-align:center;">We offer a variety of classes including Weight Training, Cardio, Yoga, HIIT, and more. Check our schedule and sign up today!</p>
-        <img src="https://hips.hearstapps.com/hmg-prod/images/gym-men-doing-front-squats-royalty-free-image-1583509980.jpg?resize=640:*" alt="Group workout class" style="display:block; margin:2rem auto; max-width:100%; border-radius:10px;">
+    <section>
+        <h2>Tentang Iman Saya</h2>
+        <p>Yesus telah mengubah hidup saya. Dari yang lemah, Dia beri kekuatan. Dari yang hilang arah, Dia jadi jalan. Jika kamu sedang mencari damai sejahtera, datanglah kepada-Nya.</p>
+        <p>Mari hidup berpusat pada Kristus – bukan dunia, bukan diri sendiri, tapi Dia saja.</p>
+        <p><a href="mailto:antoniuschrist1@gmail.com">Hubungi saya</a> jika ingin berbagi kesaksian atau berdoa bersama. ✝️</p>
     </section>
 
-    <section id="pricing" class="pricing">
-        <h2>Membership Plans</h2>
-        <div class="pricing-table">
-            <div class="plan">
-                <h3>Basic</h3>
-                <div class="price">$29/mo</div>
-                <ul>
-                    <li>Gym Access</li>
-                    <li>Basic Equipment</li>
-                    <li>Locker Room</li>
-                </ul>
-                <a href="#" class="btn">Sign Up</a>
-            </div>
-            <div class="plan" style="background:#ff4500; color:#fff;">
-                <h3>Premium (Most Popular)</h3>
-                <div class="price">$59/mo</div>
-                <ul>
-                    <li>Full Gym Access</li>
-                    <li>All Classes</li>
-                    <li>Personal Trainer Sessions</li>
-                    <li>Sauna & Towels</li>
-                </ul>
-                <a href="#" class="btn" style="background:#fff; color:#ff4500;">Sign Up</a>
-            </div>
-            <div class="plan">
-                <h3>VIP</h3>
-                <div class="price">$99/mo</div>
-                <ul>
-                    <li>Everything in Premium</li>
-                    <li>24/7 Access</li>
-                    <li>Nutrition Consulting</li>
-                    <li>Guest Passes</li>
-                </ul>
-                <a href="#" class="btn">Sign Up</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p style="text-align:center;">123 Fitness Street, City, State 12345<br>Email: info@powerfitgym.com<br>Phone: (123) 456-7890</p>
+    <section>
+        <h2>Ayat Hari Ini</h2>
+        <p>"Diamlah dan ketahuilah, bahwa Akulah Allah." – Mazmur 46:11</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 PowerFit Gym. All rights reserved.</p>
+        <p>&copy; 2025 Antonius Christ | Hidup untuk Kemuliaan Tuhan ✝️</p>
+        <p>Follow imanmu di Instagram: @antoniuschrist1 (atau username IG kamu)</p>
     </footer>
 
 </body>
